@@ -1,0 +1,34 @@
+/* styles.css */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: #3070D1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #1E5DB1;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.menu-section, .fridge-section {
+    -fx-spacing: 5px;
+    -fx-padding: 10px;
+    -fx-background-color: #EEE;
+    -fx-border-color: black;
+    -fx-border-width: 0px 2px 0px 0px; /* Top Right Bottom Left */
+}
+
+.fridge-section {
+    -fx-border-width: 0px 0px 0px 2px; /* Top Right Bottom Left */
+}
